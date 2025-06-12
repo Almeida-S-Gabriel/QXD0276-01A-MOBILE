@@ -17,7 +17,6 @@ import com.example.tasksmanagerapp.ui.theme.TasksManagerAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             TasksManagerAppTheme {
                 TaskScreen()
