@@ -7,8 +7,8 @@ import kotlinx.coroutines.flow.StateFlow
 class TaskRepository {
     private val _tasks = MutableStateFlow(
         listOf(
-            Task(1, "meu"),
-            Task(2, "pinto")
+            Task(1, "ola"),
+            Task(2, "mundo")
         )
     )
 
